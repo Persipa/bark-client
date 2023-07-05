@@ -13,7 +13,7 @@ import site.persipa.bark.pojo.client.dto.BarkMessageSendSimpleDto;
 /**
  * @author persipa
  */
-@DubboService
+@DubboService(version = "1.0")
 @RequiredArgsConstructor
 public class BarkMessageApiImpl implements BarkMessageApi {
 

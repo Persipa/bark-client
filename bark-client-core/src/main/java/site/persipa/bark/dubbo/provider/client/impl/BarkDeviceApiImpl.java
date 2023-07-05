@@ -15,7 +15,7 @@ import java.util.stream.Collectors;
 /**
  * @author persipa
  */
-@DubboService
+@DubboService(version = "1.0")
 @RequiredArgsConstructor
 public class BarkDeviceApiImpl implements BarkDeviceApi {
 

@@ -16,4 +16,5 @@ public class BarkMessageSendSimpleDto implements Serializable {
 
     private String deviceId;
 
+    private String group;
 }

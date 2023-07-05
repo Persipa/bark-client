@@ -1,5 +1,6 @@
 package site.persipa.bark.pojo.client.bo;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
 
@@ -15,5 +16,8 @@ public class BarkMessageSendBaseBo {
 
     @JsonProperty(value = "device_key", required = true)
     private String deviceKey;
+
+    @JsonInclude(JsonInclude.Include.NON_EMPTY)
+    private String group;
 
 }

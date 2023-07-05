@@ -1,5 +1,7 @@
 ### Persipa Custom ###
 .idea/
+**/bootstrap-local.yaml
+**/target/
 
 target/
 !.mvn/wrapper/maven-wrapper.jar
